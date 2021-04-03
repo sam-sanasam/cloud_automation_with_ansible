@@ -42,8 +42,8 @@ So, by condering the above problem, there is a human tendencyt to make mistake a
 
 ### Lets start working!!
 Step1: Create EC2 instance in AWS console aand run below code in the *user data* section to install the ansible inside\
-#!bin/bash
-sudo apt update -y
+#!bin/bash\
+sudo apt update -y\
 sudo apt install -y ansible
 
 NOTE: choose OS as ubuntu 20. , else follow the ansible doccumentation for ansible installation
